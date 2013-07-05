@@ -1,4 +1,4 @@
-package org.ei.dristhi_health_education_app;
+package org.ei.dristhi_iec;
 
 import android.app.Activity;
 import android.media.MediaPlayer;

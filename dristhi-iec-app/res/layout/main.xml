@@ -7,13 +7,13 @@
             android:id="@+id/fp1_intro_to_fp"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Introduction to Family Planning"
+            android:text="@string/intro_fp"
             android:onClick="playVideo"/>
     <Button
             android:id="@+id/fp_method_condom"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Condom Method"
+            android:text="@string/condom_method"
             android:onClick="playVideo"/>
 </LinearLayout>
 

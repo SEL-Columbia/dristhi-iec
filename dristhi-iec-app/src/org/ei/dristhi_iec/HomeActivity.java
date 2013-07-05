@@ -1,4 +1,4 @@
-package org.ei.dristhi_health_education_app;
+package org.ei.dristhi_iec;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -15,7 +15,7 @@ public class HomeActivity extends Activity {
 
     public void playVideo(final View view) {
         Intent intent = new Intent(this, VideoPlayerActivity.class);
-        intent.putExtra("VideoName", ((Button)view).getText());
+        intent.putExtra("VideoName", ((Button) view).getText());
         startActivity(intent);
     }
 }
