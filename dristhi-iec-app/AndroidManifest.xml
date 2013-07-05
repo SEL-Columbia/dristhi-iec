@@ -2,10 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="org.ei.dristhi_iec"
           android:versionCode="1"
-          android:versionName="0.1">
+          android:versionName="0.2">
     <uses-sdk android:minSdkVersion="16"/>
     <application android:label="@string/app_name" android:icon="@drawable/icon">
         <activity android:name="org.ei.dristhi_iec.HomeActivity"
+                  android:label="@string/app_name"
                   android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
