@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <Button
+            android:id="@+id/fp1_intro_to_fp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Introduction to Family Planning"
+            android:onClick="playVideo"/>
+    <Button
+            android:id="@+id/fp_method_condom"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Condom Method"
+            android:onClick="playVideo"/>
+</LinearLayout>
+

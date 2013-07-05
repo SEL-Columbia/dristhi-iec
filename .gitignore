@@ -18,3 +18,20 @@ local.properties
 # Eclipse project files
 .classpath
 .project
+*.iml
+*.ipr
+*.iws
+.idea/
+.classpath
+.project
+bin/
+gen/
+out/
+target/
+local.properties
+drishti-app/tmp/
+classes/
+tmp/
+project.properties
+.DS_Store
+.settings
