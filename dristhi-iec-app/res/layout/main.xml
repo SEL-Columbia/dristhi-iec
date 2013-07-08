@@ -40,6 +40,12 @@
             android:text="@string/vasectomy"
             android:onClick="playVideo"/>
     <Button
+            android:id="@+id/anc_general"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/anc_general"
+            android:onClick="playVideo"/>
+    <Button
             android:id="@+id/ifa"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
