@@ -4,16 +4,88 @@
               android:layout_width="fill_parent"
               android:layout_height="fill_parent">
     <Button
-            android:id="@+id/fp1_intro_to_fp"
+            android:id="@+id/intro_fp"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/intro_fp"
             android:onClick="playVideo"/>
     <Button
-            android:id="@+id/fp_method_condom"
+            android:id="@+id/condom_method"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/condom_method"
+            android:onClick="playVideo"/>
+    <Button
+            android:id="@+id/ocp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ocp"
+            android:onClick="playVideo"/>
+    <Button
+            android:id="@+id/iud"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/iud"
+            android:onClick="playVideo"/>
+    <Button
+            android:id="@+id/tubal_ligation"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tubal_ligation"
+            android:onClick="playVideo"/>
+    <Button
+            android:id="@+id/vasectomy"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vasectomy"
+            android:onClick="playVideo"/>
+    <Button
+            android:id="@+id/ifa"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ifa"
+            android:onClick="playVideo"/>
+    <Button
+            android:id="@+id/birth_plan"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/birth_plan"
+            android:onClick="playVideo"/>
+    <Button
+            android:id="@+id/danger_signs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/danger_signs"
+            android:onClick="playVideo"/>
+    <Button
+            android:id="@+id/intro_pnc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/intro_pnc"
+            android:onClick="playVideo"/>
+    <Button
+            android:id="@+id/child_overview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/child_overview"
+            android:onClick="playVideo"/>
+    <Button
+            android:id="@+id/diarrhea"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/diarrhea"
+            android:onClick="playVideo"/>
+    <Button
+            android:id="@+id/ari"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ari"
+            android:onClick="playVideo"/>
+    <Button
+            android:id="@+id/malnutrition"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/malnutrition"
             android:onClick="playVideo"/>
 </LinearLayout>
 
