@@ -50,8 +50,8 @@ public class VideoPlayerActivity extends Activity {
         videoMap.put("Condom", R.raw.fp_method_condom);
         videoMap.put("OCP", R.raw.fp_method_ocp);
         videoMap.put("IUD", R.raw.fp_method_iud);
-        videoMap.put("Tubal Ligation", R.raw.fp_tubal_ligation);
-        videoMap.put("Vasectomy", R.raw.fp_method_vasectomy);
+        videoMap.put("Female Sterilization", R.raw.fp_tubal_ligation);
+        videoMap.put("Male Sterilization", R.raw.fp_method_vasectomy);
         videoMap.put("ANC General", R.raw.anc_general);
         videoMap.put("IFA", R.raw.anc_ifa);
         videoMap.put("Birth Plan", R.raw.anc_birth_plan);
